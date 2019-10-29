@@ -52,6 +52,42 @@ body {
   box-shadow: 0px 0px 5px black;
 }
 
+@media (max-width: 900px) {
+  #meimg {
+    width: 30%;
+  }
+}
+
+@media (max-width: 770px) {
+  #meimg {
+    width: 35%;
+  }
+}
+
+@media (max-width: 650px) {
+  #meimg {
+    width: 40%;
+  }
+}
+
+@media (max-width: 550px) {
+  #meimg {
+    width: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  #meimg {
+    width: 65%;
+  }
+}
+
+@media (max-width: 370px) {
+  #meimg {
+    width: 70%;
+  }
+}
+
 .home-inner {
   background-image: url(images/astronomy-dark-design-924824.jpg);
   background-attachment: fixed;
